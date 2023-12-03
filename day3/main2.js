@@ -6,10 +6,6 @@ let dataArray = data.toString('utf-8').split('\n');
 
 let dataMatrix = [];
 
-// let symbols = ['@','#','$','%','&','*','-','+','=','/'];
-
-// let goodParts = [];
-
 dataArray.forEach((line,index) => {
     dataMatrix[index] = line.split('');
 })
